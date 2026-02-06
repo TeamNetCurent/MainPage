@@ -265,9 +265,9 @@ header {
     transform: scale(1.05);
 }
 
+/* Remove the icon styles since we're using images now */
 .team-img i {
-    font-size: 5rem;
-    color: rgba(0, 180, 255, 0.2);
+    display: none;
 }
 
 .team-info {
